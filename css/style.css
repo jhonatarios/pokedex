@@ -54,10 +54,32 @@ main{
     text-transform: capitalize;
 }
 
+.pokemon_info{
+    position: absolute;
+    font-weight: 300;
+    color: #fff;
+    top: 64%;
+    left: 12%;
+    max-width: 345px;
+    max-height: 70px;
+    font-size: .8rem;
+    text-transform: capitalize;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10px;
+}
+
+.info{
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px;
+}
+
 .form{
     position: absolute;
     width: 64%;
-    top: 64%;
+    top: 74%;
     left: 14%;
 }
 
